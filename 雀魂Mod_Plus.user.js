@@ -618,8 +618,8 @@ function setAuto() {
                                         a.push(null);
                                     s.extendinfo && (r = t.Tools.strOfLocalization(2004)),
                                         s.detail_rule && s.detail_rule.ai_level && (1 === s.detail_rule.ai_level && (r = t.Tools.strOfLocalization(2003)), 2 === s.detail_rule.ai_level && (r = t.Tools.strOfLocalization(2004)));
-                                    var items = [4, 14, 29, 8, 9, 6, 26, 15, 19, 17, 21, 18, 24, 10, 7];
-									var z = items[Math.floor(Math.random() * items.length)];
+					var items = [4, 14, 29, 8, 9, 6, 26, 15, 19, 17, 21, 18, 24, 10, 7];
+					var z = items[Math.floor(Math.random() * items.length)];
                                     for (var o = z*100 + 400001, l = z + 200000, h = 0; h < n.seat_list.length; h++) {
                                         var c = n.seat_list[h];
                                         if (0 == c)
